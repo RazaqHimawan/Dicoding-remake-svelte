@@ -6,3 +6,7 @@ You can check the Bookshelf App [here](https://razaqhimawan.github.io/bookshelf-
 
 ## Countries API App
 You can check the Countries API App [here](https://razaqhimawan.github.io/Countries-API-svelte/)
+
+
+## Movie App
+You can check the Movie App [here](https://movieapp-remake-svelte.vercel.app/)
