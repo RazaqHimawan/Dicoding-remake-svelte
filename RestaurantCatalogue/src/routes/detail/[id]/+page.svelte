@@ -20,17 +20,17 @@ function toggle() {
 }
 
 onMount(async () => {
-  if (await data.getRestaurant(restaurant.id)) {
+  if (await data.idb.getRestaurant(restaurant.id)) {
     like = true;
   }
 });
 
 async function likeRestaurant() {
-  await data.putRestaurant(restaurant);
+  await data.idb.putRestaurant(restaurant);
 }
 
 async function unlikeRestaurant() {
-  await data.deleteRestaurant(restaurant.id);
+  await data.idb.deleteRestaurant(restaurant.id);
 }
 </script>
 

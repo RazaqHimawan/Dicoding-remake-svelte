@@ -1,6 +1,5 @@
 <script>
 export let restaurant;
-export let img;
 </script>
 
 <a
@@ -11,11 +10,7 @@ export let img;
   <span class="absolute top-0 bg-red-800 text-red-100 rounded-br-2xl w-fit p-2"
     >{restaurant.city}</span
   >
-  <img
-    class="w-[300px] h-[200px] lazyload"
-    data-src={img}
-    alt={restaurant.name}
-  />
+  <slot />
   <div class="px-4">
     <h3 class="text-2xl font-bold my-2">{restaurant.name}</h3>
     <p
