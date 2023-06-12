@@ -10,3 +10,6 @@ You can check the Countries API App [here](https://razaqhimawan.github.io/Countr
 
 ## Movie App
 You can check the Movie App [here](https://movieapp-remake-svelte.vercel.app/)
+
+## Restaurant Catalogue App
+You can check the Restaurant Catalogue App [here](https://restaurantcatalogue-remake-svelte.vercel.app/)
